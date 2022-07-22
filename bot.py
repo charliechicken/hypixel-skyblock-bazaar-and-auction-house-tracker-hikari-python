@@ -8,7 +8,7 @@ from time import time, sleep
 
 
 bot = lightbulb.BotApp(token='TOKEN_HERE',
- default_enabled_guilds=('YOUR_GUILD_ID')) #You can delte default_enabled_guilds to have the bot in multiple servers
+ default_enabled_guilds=('YOUR_GUILD_ID')) #You can delete default_enabled_guilds to have the bot in multiple servers
 api = "https://api.hypixel.net/skyblock/bazaar" # Fetch API for Bazaar Data
 r = requests.get("https://api.hypixel.net/skyblock/auctions").json() # Auction House data
 
